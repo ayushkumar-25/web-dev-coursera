@@ -95,9 +95,40 @@
                 <form>
                     <div class="form-group row">
                         <label for="firstname" class="col-md-2 col-form-label">First Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name">
+                        </div>
                     </div>
                     <div class="form-group row">
-
+                        <label for="lastname" class="col-md-2 col-form-label">Last Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="telnum" class="col-12 col-md-2 col-form-label">Contact Tel.</label>
+                        <div class="col-5 col-md-3">
+                            <input type="tel" class="form-control" id="areacode" name="areacode" placeholder="Area Code">
+                        </div>
+                        <div class="col-7 col-md-7">
+                            <input type="tel" class="form-control" id="telnum" name="letnum" placeholder="Tel. Number">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="emailid" class="col-md-2 col-form-label">Email</label>
+                        <div class="col-md-10">
+                            <input type="email" class="form-control" id="emailid" name="emailid" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-md-6 offset-md-2">
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" name="approve" id="approve" value="">
+                                <label type="form-check-label" for="approve">
+                                    <strong>May be contact you?</strong>
+                                </label>
+                            </div>
+                        </div>
                     </div>
                 </form>
             </div>
